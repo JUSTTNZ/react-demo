@@ -30,7 +30,7 @@ class App extends Component {
       if(event.key ==='Enter') {
         let notesArr = this.state.notes;
       notesArr.push(this.setState.noteText);
-      this.setState({ noteText: ''})
+      this.setState({ noteText: 'Type here...'})
 
       }
     }
